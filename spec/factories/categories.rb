@@ -1,0 +1,7 @@
+FactoryBot.define do
+  factory :category do
+    name { Faker::Lorem.word }
+    active false
+    
+  end
+end
